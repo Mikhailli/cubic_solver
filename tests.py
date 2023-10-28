@@ -1,7 +1,7 @@
 import unittest
 from Solver import solver
 
-#
+
 class solver_tests(unittest.TestCase):
     def test_linear(self):
         expected_text = 'Линейное уравнение\n x = %s\n' % (-1.0)
